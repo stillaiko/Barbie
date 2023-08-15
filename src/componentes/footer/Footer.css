@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
+
+a{
+ text-decoration: none;   
+color:white;
+}
+
+li{
+    padding: 10px 0px;
+    list-style-type:none;
+}
+
+footer{
+    margin-top: 1000px;
+    font-family: 'Preahvihear', sans-serif;
+    background-color: #ff8c9f;
+}
+
+.liF:hover{
+    color: black;
+}
+
+.H{
+    color: white;
+}
+
+.nav2{
+    display: flex;
+    justify-content: end;
+    margin-right: 230px;
+}
+
+.L{
+    display: flex;
+    margin-top: 77px;
+    padding: 2vh;
+    background: url(../img/Barbie-Logo-Transparent-Background.png);
+    background-size:50%;
+    background-repeat:no-repeat;
+    height:200px;
+    width:400px;
+}
+
+.mattel{
+    display: flex;
+    margin-top: 60px;
+    color: white;
+}

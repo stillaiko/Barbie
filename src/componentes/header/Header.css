@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(255, 218, 224);
+}
+
+header{
+    font-family: 'Preahvihear', sans-serif;
+    background-color: #ff8c9f;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10vw;
+    align-items: center;
+    
+}
+
+header nav ul li a:hover{
+    transition:1s;
+    box-shadow: #ffc4c4 0px 5px 15px;
+  }
+
+header nav ul li a{
+    text-decoration: none;
+    padding: 15px;
+    border: 3px solid hotpink;
+    border-radius: 14px;
+    color:white; 
+    box-shadow: #e9b0b0 0px 2px 5px -1px, 0px 1px 3px -1px;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+.logo{
+    margin-top: 10px;
+    background: url('../img/Barbie_Branco.webp');
+    background-size:50%;
+    background-repeat:no-repeat;
+    height:100px;
+    width:400px;
+}
