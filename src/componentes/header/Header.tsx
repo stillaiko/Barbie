@@ -6,7 +6,7 @@ function Header(){
             <div className='logo'></div>
             <nav>
                 <ul>
-                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">PRINCIPAL</a></li>
                     <li><a href="#">NOTÍCIAS</a></li>
                     <li><a href="#">SOBRE</a></li>
                     <li><a href="#">CONTATO</a></li>
