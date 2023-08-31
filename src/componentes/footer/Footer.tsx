@@ -10,7 +10,7 @@ function Footer(){
     
     <div>
     <div className='L'></div>
-    <div className='mattel'>©2023 Mattel</div>
+    <div className='mattel'>©2023 Matel</div>
     </div>
    
 
