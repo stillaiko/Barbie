@@ -1,9 +1,17 @@
 .filme_content{
-    width: 300px;
+    /* width: 300px; */
     padding: 50px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+}
 
-.filme_content>img{
+.foto_filme{
+    display: flex;
+    min-height: 350px;
+    align-items: center;
+}
+
+.foto_filme>img{
     width: 100%;
 }
 

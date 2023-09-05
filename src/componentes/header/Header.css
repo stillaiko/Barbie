@@ -30,13 +30,20 @@ header nav ul{
     display: flex;
     list-style: none;
     gap: 15px;
+    align-items: center;
 }
 
-.logo{
+.logo1{
     margin-top: 10px;
     background: url('../img/Barbie_Branco.webp');
     background-size:50%;
     background-repeat:no-repeat;
     height:100px;
     width:400px;
+}
+
+.barrapesquisa{
+    height: 30px;
+    width: 200px;
+    border: 1px solid #f0f0f0;
 }
