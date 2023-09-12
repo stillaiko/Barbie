@@ -9,6 +9,7 @@
     display: flex;
     min-height: 350px;
     align-items: center;
+    justify-content: center;
 }
 
 .foto_filme>img{

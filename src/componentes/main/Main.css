@@ -1,5 +1,5 @@
 .content_main{
-    padding: 50px;
+    padding: 15px 100px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 30px;
@@ -9,4 +9,22 @@
     /* gap: 30px;
     flex-wrap: wrap;
     justify-content: center; */
+}
+
+.barrapesquisa{
+    height: 30px;
+    width: 300px;
+    border: 1px solid #b1b1b1;
+    border-radius: 6px;
+    margin-right: 20px;
+    font-size: 1rem;
+}
+
+.barrapesquisa:focus-visible{
+outline: 1px solid rgb(76, 192, 228);
+}
+
+.pesquisa{
+    padding: 15px 100px;
+    
 }

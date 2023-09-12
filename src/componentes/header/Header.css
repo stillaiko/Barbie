@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+
 body{
     background-color: rgb(255, 255, 255);
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 header{
     font-family: 'Preahvihear', sans-serif;
-    background-color:hotpink;
+    background-color:rgb(76, 192, 228);
     display: flex;
     justify-content: space-between;
     padding: 10px 10vw;
@@ -14,14 +17,14 @@ header{
 
 header nav ul li a:hover{
     transition:1s;
-    box-shadow: #ff94e8 0px 5px 15px;
+    box-shadow: #ffffff 0px 5px 15px;
   }
 
 header nav ul li a{
     text-decoration: none;
     padding: 15px;
-    border: 3px solid rgb(255, 255, 255);
-    border-radius: 14px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 35px;
     color:white; 
     box-shadow: #e9b0b0 0px 2px 5px -1px, 0px 1px 3px -1px;
 }
@@ -35,15 +38,10 @@ header nav ul{
 
 .logo1{
     margin-top: 10px;
-    background: url('../img/Barbie_Branco.webp');
+    
     background-size:50%;
     background-repeat:no-repeat;
     height:100px;
     width:400px;
 }
 
-.barrapesquisa{
-    height: 30px;
-    width: 200px;
-    border: 1px solid #f0f0f0;
-}
