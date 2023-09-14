@@ -10,7 +10,7 @@ type FilmesType = {
 
 export default function Main(){
     //Hook
-    const [texto,setTexto] = useState("Nana")
+    const [texto,setTexto] = useState("")
     const filmes:FilmesType[] = [
         {
             id:1,
@@ -55,6 +55,8 @@ export default function Main(){
         }
     ]
 
+
+
     //A função recebe um atributo chamado "e" de "event"
     function mudaTexto(e:React.ChangeEvent<HTMLInputElement>){
     console.log(e.target.value)
@@ -74,7 +76,9 @@ export default function Main(){
 
         <main className='content_main'>
 
-        <Filme 
+       {filmes.filter((filme)=>filme.titulo.toLowerCase().includes(texto)).map((filme) => <Filme key = { filme.id } titulo={filme.titulo} sinopse={filme.sinopse} imagem={filme.imagem}/> )}
+
+        {/* <Filme 
         titulo="Barbie" 
         sinopse="Depois de ser expulsa da Barbieland por ser uma boneca de aparência menos do que perfeita, Barbie parte para o mundo humano em busca da verdadeira felicidade."
         imagem="/barbie-posteres.png"
@@ -120,7 +124,7 @@ export default function Main(){
         titulo="Teen Beach Movie" 
         sinopse="Brady e McKenie são dois jovens surfistas que magicamente se tornam parte de um filme musical. Ao perceber que sua presença está alterando o roteiro original do filme, eles se esforçam para fazer tudo voltar ao normal e acabam se apaixonando."
         imagem="/teen.png"
-        />
+        /> */}
 
         </main>
         </>
