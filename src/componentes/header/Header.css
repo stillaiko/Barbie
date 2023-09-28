@@ -12,6 +12,7 @@ header{
     justify-content: space-between;
     padding: 10px 10vw;
     align-items: center;
+    background-color:hotpink;
     
 }
 
@@ -38,10 +39,9 @@ header nav ul{
 
 .logo1{
     margin-top: 10px;
-    
     background-size:50%;
     background-repeat:no-repeat;
     height:100px;
-    width:400px;
+    width:200px;
 }
 

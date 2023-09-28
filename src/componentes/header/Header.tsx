@@ -1,17 +1,18 @@
 import './Header.css'
+import {Link} from 'react-router-dom'
 
 function Header(){
 
     return(
         
         <header>
-            <div className='logo1'></div>
+            <div ><Link to="/"><img className='logo1'src="/Barbie_Branco.webp" alt="" /></Link></div>
             <nav>
                 <ul>
-                    <li><a href="#">CATEGORIAS</a></li>
-                    <li><a href="#">FILMES</a></li>
-                    <li><a href="#">SÉRIES</a></li>
-                    <li><a href="#">CONTATO</a></li>
+                    <li><Link to="/">Página Inicial</Link></li>
+                    <li><Link to="/sobre">Sobre</Link></li>
+                    <li><Link to="/noticias">Noticias</Link></li>
+                    <li><Link to="/contato">Contato</Link></li>
                 </ul>
             </nav>
         </header>
